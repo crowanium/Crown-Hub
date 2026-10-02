@@ -93,7 +93,7 @@ Library.Theme = {
 Library.Assets = {
     Shadow = "rbxassetid://6014261993",
     Glow = "rbxassetid://8992230677",
-    Logo = "rbxassetid://87662873050747",
+    Logo = "rbxassetid://112884040412595",
 }
 
 local LUCIDE_URL = "https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/lucide/dist/Icons.lua"
