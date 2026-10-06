@@ -1,4 +1,4 @@
--- Crown Hub UI Library 
+-- Crown Hub UI Library (Royal Gold) 
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 local GuiService = game:GetService("GuiService")
@@ -74,19 +74,19 @@ local function finishElement(tab, opts, element, frame, kind)
 end
 
 Library.Theme = {
-    -- Crown Hub green theme
-    Background   = Color3.fromRGB(6, 14, 10),
-    Surface      = Color3.fromRGB(10, 22, 14),
-    Surface2     = Color3.fromRGB(14, 30, 18),
-    Surface3     = Color3.fromRGB(18, 40, 24),
-    Stroke       = Color3.fromRGB(30, 70, 42),
-    StrokeHover  = Color3.fromRGB(50, 120, 70),
-    Accent       = Color3.fromRGB(34, 197, 94),
-    AccentDark   = Color3.fromRGB(12, 40, 22),
-    Text         = Color3.fromRGB(236, 253, 245),
-    Muted        = Color3.fromRGB(110, 180, 140),
+    -- Crown Hub royal yellow / gold theme
+    Background   = Color3.fromRGB(12, 10, 4),
+    Surface      = Color3.fromRGB(22, 18, 8),
+    Surface2     = Color3.fromRGB(32, 26, 10),
+    Surface3     = Color3.fromRGB(42, 34, 12),
+    Stroke       = Color3.fromRGB(90, 70, 20),
+    StrokeHover  = Color3.fromRGB(180, 140, 40),
+    Accent       = Color3.fromRGB(234, 179, 8),   -- royal gold
+    AccentDark   = Color3.fromRGB(60, 45, 8),
+    Text         = Color3.fromRGB(255, 250, 230),
+    Muted        = Color3.fromRGB(180, 160, 100),
     Warning      = Color3.fromRGB(250, 204, 21),
-    Success      = Color3.fromRGB(34, 197, 94),
+    Success      = Color3.fromRGB(234, 179, 8),
     Error        = Color3.fromRGB(239, 68, 68),
 }
 
