@@ -1,9 +1,3 @@
---[[
-	Crown Hub — full UI port (inline)
-	local CrownUI holds the library. No external links required.
-	Toggle: RightShift (configurable in Settings).
-]]
-
 local CrownUI
 do
 local Players = game:GetService("Players")
