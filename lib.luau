@@ -2113,7 +2113,7 @@ local function Brand(parent, logo, tile, textSize, zIndex, bare)
     image.Name = "BrandMark"
     image.BackgroundTransparency = 1
     image.Size = UDim2.fromScale(1, 1)
-    image.Image = "rbxassetid://113737142720252"
+    image.Image = "rbxassetid://120589856523793"
     image.ScaleType = Enum.ScaleType.Fit
     image.ImageColor3 = Color3.new(1, 1, 1)
     image.ZIndex = zIndex or parent.ZIndex
