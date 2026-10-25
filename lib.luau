@@ -4445,7 +4445,7 @@ function Library:CreateWindow(config)
 		Position = UDim2.fromScale(0.5, 0.5),
 		Size = UDim2.fromOffset(36, 36),
 		BackgroundTransparency = 1,
-		Image = "rbxassetid://113737142720252",
+		Image = "rbxassetid://120589856523793",
 		ScaleType = Enum.ScaleType.Fit,
 		ImageColor3 = Color3.new(1, 1, 1),
 		ZIndex = 46,
@@ -9222,7 +9222,7 @@ else
 local Window = Library:CreateWindow({
 	Title = "Crown Hub",
 	Subtitle = "v1.0 · " .. (RunService:IsStudio() and "studio" or "live"),
-	Logo = "rbxassetid://113737142720252",
+	Logo = "rbxassetid://120589856523793",
 })
 
 Window:SidebarHeading("General")
